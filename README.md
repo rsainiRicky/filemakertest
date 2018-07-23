@@ -39,3 +39,52 @@ Tools Bar (Top)
 Add Fields (Lift)
 Content (Middle)
 Properties (Right)
+
+## Menubar changes
+
+Please update the menubar with JSON data
+
+JSONData = [
+ {
+    "href":"#",
+    "text":"file",
+    "children":[
+       {
+          "href":"#",
+          "text":"New",
+          "children":[ 
+             {
+                "href":"#",
+                "text":"abc"
+             },
+             {
+                "href":"#",
+                "text":"Excel"
+             },
+             {
+                "href":"#",
+                "text":"word"
+             }
+          ]
+       },
+       { 
+          "href":"#",
+          "text":"exit"
+       }
+    ]
+ },
+ { 
+    "href":"#",
+    "text":"Edit",
+    "children":[
+       {
+          "href":"#",
+          "text":"xyz option"
+       },
+       {
+          "href":"#",
+          "text":"abcoption"
+       }
+    ]
+ }
+]
